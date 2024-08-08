@@ -28,6 +28,8 @@ pip install streamlit pandas requests
 2. **Ensure the Required Files are Present**:
    - `movies_dict.pkl`: A pickle file containing the movie data.
    - `similarity.pkl`: A pickle file containing the precomputed similarity matrix.
+   - `movies.pkl`: A pickle file containing additional movie information used in the project.
+   - `movie_recommender_system.ipynb`: A Jupyter Notebook that likely contains data analysis, model training, or exploratory work related to the recommender system.
 
 3. **Run the Application**:
 
@@ -45,7 +47,9 @@ pip install streamlit pandas requests
 ## Project Structure
 
 - **app.py**: The main application file that contains the logic for fetching movie recommendations and displaying the UI.
+- **movie_recommender_system.ipynb**: A Jupyter Notebook that provides additional insights or model training code related to the recommender system.
 - **movies_dict.pkl**: A pickle file containing the movie data.
+- **movies.pkl**: A pickle file containing additional movie information.
 - **similarity.pkl**: A pickle file containing the similarity matrix used for recommendations.
 
 ## API Usage
